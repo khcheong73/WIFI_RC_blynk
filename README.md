@@ -7,3 +7,5 @@ RC controller       : Blynk on smartphone<br>
 
 one DC motor & one servo<br>
 LED lights: headlight, brake, left, right, backward<br>
+
+support multiple WiFi AP
