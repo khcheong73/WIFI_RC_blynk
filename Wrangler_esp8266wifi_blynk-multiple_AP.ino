@@ -51,11 +51,11 @@ U8G2_SSD1306_128X32_UNIVISION_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "UmRf5s1YBwYXCucTKUTBDHZxL_FE3om9";
+char auth[] = "YourAuthToken";
 
 //Array to store Network Credentials for different WiFi Networks
-const char* KNOWN_SSID[] = {"Kevin-hotspot", "Kevin's iPhone", "KEVIN-HOME", "103-2102"}; //Put all Your WiFi Network Names
-const char* KNOWN_PASSWORD[] = {"01020608996", "01020608996", "0316098996", "30525A400A16"}; //Put the WiFi Passwords in same order. For Open networks leave the password blank inside the double quotes.
+const char* KNOWN_SSID[] = {"SSID#1", "SSID#2", "SSID#3"}; //Put all Your WiFi Network Names
+const char* KNOWN_PASSWORD[] = {"PASSWORD#1", "PASSWORD#2", "PASSWORD#3"}; //Put the WiFi Passwords in same order. For Open networks leave the password blank inside the double quotes.
 
 
 const int KNOWN_SSID_COUNT = sizeof(KNOWN_SSID) / sizeof(KNOWN_SSID[0]); // number of known networks
